@@ -1,0 +1,39 @@
+/* width */
+#filterScroll::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+/* Track */
+/* #filterScroll::-webkit-scrollbar-track {
+} */
+
+/* Handle */
+#filterScroll::-webkit-scrollbar-thumb {
+  background: #eb5030;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  } */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+/* fileration */
+@media (min-width: 1024px) {
+  .h-screen.absolute {
+    position: initial;
+  }
+}

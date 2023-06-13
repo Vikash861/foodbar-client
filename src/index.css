@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link{
+    @apply hover:text-custom-red py-2 rounded px-2 ease-in duration-100 ;
+}
+
+.active{
+    @apply text-custom-red;
+}
+
+.social-login{
+    @apply w-3/6 border border-textbox-border rounded-lg justify-center flex p-2 gap-x-2 items-center
+}
+
+.input-box{
+    @apply w-full h-12 my-2 outline-custom-red border-2 border-textbox-border rounded-lg p-4 bg-textbox-bg
+}
+
+.filterStyle{
+    @apply w-24 mx-2 p-2 h-10 rounded-lg text-custom-red text-lg shadow-lg
+}
+
+.foucs-btn{
+    @apply focus:outline-none focus:ring focus:ring-red-500
+}
